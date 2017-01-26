@@ -1,0 +1,25 @@
+body {
+	padding: 20px;
+}
+
+p, h1 {
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 30px;
+	line-height: 40px;
+	letter-spacing: -1px;
+	color: #444;
+	margin: 0 0 0 0;
+	padding: 10 0 10 0;
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+span {
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #444;
+}
