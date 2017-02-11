@@ -9,5 +9,7 @@
 		<#include "basics.ftlh">
 		
 		<#include "enums.ftlh">
+		
+		<#include "macros.ftlh">
 	</body>
 </html>

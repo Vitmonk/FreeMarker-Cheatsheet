@@ -26,4 +26,7 @@ Enums:
 * access specific Enum constant
 * call Enum method
 
+Macros:
+
+* override macro
 
