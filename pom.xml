@@ -35,8 +35,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <!-- Install Browser-Plugin from http://livereload.com/extensions/ for
-                page autoreload -->
+            <!-- Install Browser-Plugin from http://livereload.com/extensions/ for page autoreload -->
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
@@ -90,6 +89,4 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
