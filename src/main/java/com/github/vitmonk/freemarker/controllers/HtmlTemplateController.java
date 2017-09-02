@@ -1,9 +1,5 @@
 package com.github.vitmonk.freemarker.controllers;
 
-import java.io.IOException;
-import java.io.Writer;
-import java.util.Map;
-
 import com.github.vitmonk.freemarker.config.FreeMarkerInitializer;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -18,14 +14,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
+import java.io.Writer;
+import java.util.Map;
+
 @RestController
 public class HtmlTemplateController {
 
     @Autowired
     private FreeMarkerInitializer freeMarkerInitializer;
 
-    @RequestMapping(value = { "/freemarkerHtml" },
-            produces = { MediaType.TEXT_HTML_VALUE })
+    @RequestMapping(value = {"/freemarkerHtml"},
+            produces = {MediaType.TEXT_HTML_VALUE})
     @ResponseBody
     public ResponseEntity<String> getFilledTemplate() throws IOException, TemplateException {
 

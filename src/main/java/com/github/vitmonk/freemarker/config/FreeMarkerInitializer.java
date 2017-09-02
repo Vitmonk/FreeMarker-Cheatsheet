@@ -1,17 +1,16 @@
 package com.github.vitmonk.freemarker.config;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Map;
-
-import javax.annotation.PostConstruct;
-
 import com.github.vitmonk.freemarker.enums.MyEnum;
 import com.google.common.collect.Maps;
 import freemarker.ext.beans.BeansWrapper;
 import freemarker.template.Configuration;
 import freemarker.template.TemplateModelException;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import java.io.File;
+import java.io.IOException;
+import java.util.Map;
 
 @Component
 public class FreeMarkerInitializer {
